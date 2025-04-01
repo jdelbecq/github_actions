@@ -1,8 +1,8 @@
-name: Multiple shells command
+name: Multiple shells commands
 on:
   push:
     branches:
-      - "main"
+      - "master"
   pull_request:
     types: [closed, assigned, opened, reopened]
 jobs:
